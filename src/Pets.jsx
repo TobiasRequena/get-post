@@ -37,12 +37,12 @@ function Pets() {
 
   return (
     <div className='card-container'>
-      <Flex gap='small' wrap>
-        <Button onClick={fetchDog}>PERRO</Button>
-        <Button onClick={fetchCat}>GATO</Button>
+      <Flex gap='small' wrap >
+        <Button type='primary' onClick={fetchDog}>PERRO</Button>
+        <Button type='primary' onClick={fetchCat}>GATO</Button>
       </Flex>
       <div >
-        <Flex gap='small' wrap>
+        <Flex gap='small' wrap justify='center'>
           <Card
             hoverable
             style={{ width: '300px', height: '300px' }}
@@ -74,7 +74,7 @@ function Pets() {
         </Flex>
       </div>
       <Link to="/">
-        <Button type='primary'>Inicio</Button>
+        <Button >Inicio</Button>
       </Link>
     </div>
   );

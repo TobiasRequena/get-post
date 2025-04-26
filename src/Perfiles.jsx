@@ -61,8 +61,8 @@ export const Perfiles = () => {
 
   return (
     <div className='perfiles-container'>
-      <div>
-        <Flex gap='small' wrap>
+      <div style={{ margin: 10 }}>
+        <Flex gap='small' wrap >
             <Input 
               size='large' 
               placeholder='Nombre' 
